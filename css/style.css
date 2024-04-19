@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+button {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+}
+
+.title {
+    margin-top: 1000px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.not_display {
+    display: none;
+}

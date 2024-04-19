@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестирование</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="player_ques">
+        <p class="name_que">
+            Введите ваше имя:
+            <input id="name" placeholder="Имя">
+        </p>
+        <form class="gender_que">
+            <label>Выберите ваш пол:</label>
+            <select id="genders">
+                <option id="male">Mужской</option>
+                <option id="female">Женский</option>
+            </select>
+        </form>
+        <button id="ok">Подтвердить</button>
+    </div>
+    <div id="wrapper" class="not_display">
+        <div class="quiz-container">
+            <h1 class="title">Проверка усвоенного материала</h1>
+            <div class="question" id="question">
+                <!-- Здесь будет отображаться текущий вопрос -->
+                <!-- Вопрос 1: Какой язык программирование вы изучаете -->
+            </div>
+            <div class="options" id="options">
+                <!-- Здесь будут варианты ответов -->
+                <!-- <button onclick="nextQuestion('JavaScript')">JavaScript</button>
+                <button onclick="nextQuestion('Python')">Python</button>
+                <button onclick="nextQuestion('Java')">Java</button>
+                <button onclick="nextQuestion('C++')">C++</button> -->
+            </div>
+            <div class="result" id="result">
+                <!-- Здесь будут отображаться результаты тестов -->
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
